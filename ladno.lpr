@@ -3,6 +3,6 @@ uses Unit1;
 var s:string;
 begin
   s:='simple string' +#13;
-  writeLn('',Chomp(s));
+  writeLn('string without line feed: ',Chomp(s));
   readln
 end.
